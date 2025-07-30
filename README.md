@@ -29,6 +29,9 @@
 ## Technology Stack
 
 Youtube RSS feeds, APscheduler - Video Monitoring 
+
 Whisper + yt-dlp – For automated audio downloading and transcription
+
 ccxt – Connects to crypto exchanges for portfolio data
+
 Local Open-Source LLMs – Handles summarization and strategic reasoning
