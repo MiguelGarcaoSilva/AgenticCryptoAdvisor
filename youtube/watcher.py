@@ -19,7 +19,7 @@ def fetch_new_videos_from_channels(channels, max_results=5):
             response = requests.get(rss_url)
             response.raise_for_status()
         except Exception as e:
-            print(f"❌ Failed to fetch RSS for {channel_name}: {e}")
+            print(f"Failed to fetch RSS for {channel_name}, id:{channel_id}: {e}")
             continue
 
         root = ET.fromstring(response.content)
