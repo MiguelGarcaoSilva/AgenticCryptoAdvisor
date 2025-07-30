@@ -3,7 +3,7 @@
 CryptoInsightFlow is a modular workflow that supports long-term crypto portfolio strategy by combining insights from YouTube content with live exchange data. Designed for periodic evaluation rather than real-time trading, it helps surface actionable, research-informed allocation suggestions.
 
 Key Workflow Components
- - Monitors crypto-focused YouTube channels for new video uploads
+ - Monitors crypto-focused YouTube channels for new video uploads via RSS (Really Simple Syndication) with APScheduler every 1-minute
  - Downloads and transcribes videos using yt-dlp and Whisper
  - Summarizes video content using large language models (e.g., GPT-4)
  - Fetches live portfolio allocations via exchange APIs (ccxt)
