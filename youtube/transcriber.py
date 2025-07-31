@@ -4,8 +4,8 @@ import whisper
 import os
 from config import TRANSCRIPTS_DIR
 
-# Load the Whisper model
-model = whisper.load_model("small")
+# Load the Whisper model (tiny/small/base/large)
+model = whisper.load_model("tiny", device="cpu")
 
 def transcribe(audio_path: str, video_id: str) -> str:
     os.makedirs(TRANSCRIPTS_DIR, exist_ok=True)

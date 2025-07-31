@@ -6,7 +6,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from youtube.transcriber import transcribe
 from config import AUDIO_DIR
 
-video_id = "dQw4w9WgXcQ"
+video_id = "6BfEEwrHJH4"
 audio_path = os.path.join(AUDIO_DIR, f"{video_id}.m4a")
 
 if __name__ == "__main__":

@@ -12,4 +12,6 @@ AUDIO_DIR = os.path.join("data", "audio")
 TRANSCRIPTS_DIR = os.path.join("data", "transcripts")
 
 # API Keys
+HF_API_TOKEN = os.getenv("HF_API_TOKEN")
+
 
